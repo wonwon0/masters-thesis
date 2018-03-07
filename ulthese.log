@@ -1,0 +1,182 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=latex 2018.3.7)  7 MAR 2018 09:48
+entering extended mode
+**./ulthese.ins
+(ulthese.ins
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+(/home/phil/.miktex/texmfs/install/tex/latex/base/docstrip.tex
+\blockLevel=\count79
+\emptyLines=\count80
+\processedLines=\count81
+\commentsRemoved=\count82
+\commentsPassed=\count83
+\codeLinesPassed=\count84
+\TotalprocessedLines=\count85
+\TotalcommentsRemoved=\count86
+\TotalcommentsPassed=\count87
+\TotalcodeLinesPassed=\count88
+\NumberOfFiles=\count89
+\inFile=\read1
+\inputcheck=\read2
+\off@0=\count90
+\off@1=\count91
+\off@2=\count92
+\off@3=\count93
+\off@4=\count94
+\off@5=\count95
+\off@6=\count96
+\off@7=\count97
+\off@8=\count98
+\off@9=\count99
+\off@10=\count100
+\off@11=\count101
+\off@12=\count102
+\off@13=\count103
+\off@14=\count104
+\off@15=\count105
+\@maxfiles=\count106
+\@maxoutfiles=\count107
+
+Utility: `docstrip' 2.5e <2014/09/29>
+English documentation    <2017/03/13>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+)
+
+Generating file(s) ./ulthese.cls ./gabarit-doctorat.tex ./gabarit-doctorat-arti
+cles.tex ./gabarit-doctorat-mesure.tex ./gabarit-doctorat-multifacultaire.tex .
+/gabarit-doctorat-cotutelle.tex ./gabarit-doctorat-extension-UdeS.tex ./gabarit
+-doctorat-extension-UQO.tex ./gabarit-maitrise.tex ./gabarit-maitrise-mesure.te
+x ./gabarit-maitrise-bidiplomation.tex ./gabarit-maitrise-extension-UQAC.tex ./
+resume.tex ./abstract.tex ./remerciements.tex ./avantpropos.tex ./introduction.
+tex ./chapitre1.tex ./chapitre1-articles.tex ./chapitre2.tex ./chapitre2-articl
+es.tex ./conclusion.tex ./annexe.tex 
+\openout0 = `./ulthese.cls'.
+
+\openout1 = `./gabarit-doctorat.tex'.
+
+\openout2 = `./gabarit-doctorat-articles.tex'.
+
+\openout3 = `./gabarit-doctorat-mesure.tex'.
+
+\openout4 = `./gabarit-doctorat-multifacultaire.tex'.
+
+\openout5 = `./gabarit-doctorat-cotutelle.tex'.
+
+\openout6 = `./gabarit-doctorat-extension-UdeS.tex'.
+
+\openout7 = `./gabarit-doctorat-extension-UQO.tex'.
+
+\openout8 = `./gabarit-maitrise.tex'.
+
+\openout9 = `./gabarit-maitrise-mesure.tex'.
+
+\openout10 = `./gabarit-maitrise-bidiplomation.tex'.
+
+\openout11 = `./gabarit-maitrise-extension-UQAC.tex'.
+
+\openout12 = `./resume.tex'.
+
+\openout13 = `./abstract.tex'.
+
+\openout14 = `./remerciements.tex'.
+
+\openout15 = `./avantpropos.tex'.
+
+
+Processing file ulthese.dtx (class) -> ulthese.cls
+                            (gabarit,phd,standard) -> gabarit-doctorat.tex
+                            (gabarit,phd,articles) -> gabarit-doctorat-articles
+.tex
+                            (gabarit,phd,mesure) -> gabarit-doctorat-mesure.tex
+
+                            (gabarit,phd,multifac) -> gabarit-doctorat-multifac
+ultaire.tex
+                            (gabarit,phd,cotutelle) -> gabarit-doctorat-cotutel
+le.tex
+                            (gabarit,phd,UdeS) -> gabarit-doctorat-extension-Ud
+eS.tex
+                            (gabarit,phd,UQO) -> gabarit-doctorat-extension-UQO
+.tex
+                            (gabarit,m,standard) -> gabarit-maitrise.tex
+                            (gabarit,m,mesure) -> gabarit-maitrise-mesure.tex
+                            (gabarit,m,bidiplomation) -> gabarit-maitrise-bidip
+lomation.tex
+                            (gabarit,m,UQAC) -> gabarit-maitrise-extension-UQAC
+.tex
+                            (resume) -> resume.tex
+                            (abstract) -> abstract.tex
+                            (remerciements) -> remerciements.tex
+                            (avantpropos) -> avantpropos.tex
+Lines  processed: 2433
+Comments removed: 1697
+Comments  passed: 9
+Codelines passed: 636
+
+\openout0 = `./introduction.tex'.
+
+\openout1 = `./chapitre1.tex'.
+
+\openout2 = `./chapitre1-articles.tex'.
+
+\openout3 = `./chapitre2.tex'.
+
+\openout4 = `./chapitre2-articles.tex'.
+
+\openout5 = `./conclusion.tex'.
+
+\openout6 = `./annexe.tex'.
+
+
+Processing file ulthese.dtx (introduction) -> introduction.tex
+                            (chapitre) -> chapitre1.tex
+                            (chapitre,articles) -> chapitre1-articles.tex
+                            (chapitre) -> chapitre2.tex
+                            (chapitre,articles) -> chapitre2-articles.tex
+                            (conclusion) -> conclusion.tex
+                            (annexe) -> annexe.tex
+Lines  processed: 2433
+Comments removed: 1697
+Comments  passed: 9
+Codelines passed: 636
+
+*************************************************************
+*                                                           *
+* La classe ulthese est maintenant prete a l'emploi.        *
+*                                                           *
+* Utiliser un gabarit comme base pour votre fichier maitre. *
+* Vous pouvez effacer les gabarits inutiles. Composer le    *
+* document dans des fichiers .tex distincts; quelques       *
+* gabarits sont fournis avec la classe.                     *
+*                                                           *
+* Pour produire la documentation de la classe, compiler le  *
+* fichier ulthese.dtx avec LaTeX.                           *
+*                                                           *
+* Bonne redaction!                                          *
+*                                                           *
+*************************************************************
+Overall statistics:
+Files  processed: 2
+Lines  processed: 4866
+Comments removed: 3394
+Comments  passed: 18
+Codelines passed: 1272
+ ) 
+Here is how much of TeX's memory you used:
+ 504 strings out of 493307
+ 7209 string characters out of 3136417
+ 64668 words of memory out of 3000000
+ 4127 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,15p,121b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.
