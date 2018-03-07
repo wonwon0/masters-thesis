@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=pdflatex 2018.2.26)  7 MAR 2018 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600) (preloaded format=latex 2018.3.7)  7 MAR 2018 10:53
 entering extended mode
 **./root.tex
 (root.tex
@@ -448,10 +448,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/home/phil/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: dvips.def on input line 99.
 
-(/home/phil/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/home/phil/.miktex/texmfs/install/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
@@ -462,9 +462,8 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/home/phil/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -1003,7 +1002,7 @@ Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -1077,12 +1076,20 @@ ass
 \c@memhycontfloat=\count166
 \c@Hpagenote=\count167
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (default): hdvips.
 
-(/home/phil/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count168
-\c@bookmark@seq@number=\count169
+(/home/phil/.miktex/texmfs/install/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2018/02/06 v6.86b Hyperref driver for dvips
+
+(/home/phil/.miktex/texmfs/install/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2018/02/06 v6.86b Hyperref definitions for pdfmark specials
+\pdf@docset=\toks29
+\pdf@box=\box31
+\pdf@toks=\toks30
+\pdf@defaulttoks=\toks31
+\HyField@AnnotCount=\count168
+\Fld@listcount=\count169
+\c@bookmark@seq@number=\count170
 
 (/home/phil/.miktex/texmfs/install/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1090,23 +1097,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip261
-)
+))
 Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 
-(/home/phil/Downloads/ulthese/build/root.aux
-(/home/phil/Downloads/ulthese/build/resume.aux)
-(/home/phil/Downloads/ulthese/build/abstract.aux)
-(/home/phil/Downloads/ulthese/build/remerciements.aux)
-(/home/phil/Downloads/ulthese/build/avantpropos.aux)
-(/home/phil/Downloads/ulthese/build/introduction.aux)
-(/home/phil/Downloads/ulthese/build/1architecture_du_robot.aux)
-(/home/phil/Downloads/ulthese/build/2analyse_cinematique.aux)
-(/home/phil/Downloads/ulthese/build/3cas_du_robot_simple.aux)
-(/home/phil/Downloads/ulthese/build/4etude_des_singularites.aux)
-(/home/phil/Downloads/ulthese/build/5controle_du_robot.aux)
-(/home/phil/Downloads/ulthese/build/6elaboration_d_un_prototype.aux)
-(/home/phil/Downloads/ulthese/build/conclusion.aux)
-(/home/phil/Downloads/ulthese/build/annexe.aux))
+(/home/phil/Documents/masters-thesis/build/root.aux
+(/home/phil/Documents/masters-thesis/build/resume.aux)
+(/home/phil/Documents/masters-thesis/build/abstract.aux)
+(/home/phil/Documents/masters-thesis/build/remerciements.aux)
+(/home/phil/Documents/masters-thesis/build/avantpropos.aux)
+(/home/phil/Documents/masters-thesis/build/introduction.aux)
+(/home/phil/Documents/masters-thesis/build/chapitre_Architecture_du_robot_3DDL.
+aux)
+(/home/phil/Documents/masters-thesis/build/chapitre_Env_developpement_3DDL.aux)
+
+(/home/phil/Documents/masters-thesis/build/chapitre_Architecture_du_robot_6DDL.
+aux)
+(/home/phil/Documents/masters-thesis/build/chapitre_Env_developpement_6DDL.aux)
+
+(/home/phil/Documents/masters-thesis/build/chapitre_Algo_evit_collisions_3DDL_6
+DDL.aux) (/home/phil/Documents/masters-thesis/build/conclusion.aux)
+(/home/phil/Documents/masters-thesis/build/annexe.aux))
 \openout1 = `root.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1133,33 +1143,6 @@ LaTeX Font Info:    ... okay on input line 68.
 LaTeX Info: Redefining \degres on input line 68.
 LaTeX Info: Redefining \dots on input line 68.
 LaTeX Info: Redefining \up on input line 68.
-
-(/home/phil/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count170
-\scratchdimen=\dimen156
-\scratchbox=\box31
-\nofMPsegments=\count171
-\nofMParguments=\count172
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count173
-\MPscratchDim=\dimen157
-\MPnumerator=\count174
-\makeMPintoPDFobject=\count175
-\everyMPtoPDFconversion=\toks30
-) (/home/phil/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/home/phil/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 68.
 
@@ -1169,7 +1152,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/home/phil/.miktex/texmfs/install/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count176
+\c@section@level=\count171
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1177,23 +1160,23 @@ LaTeX Info: Redefining \nameref on input line 68.
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
-(/home/phil/Downloads/ulthese/build/root.out)
-(/home/phil/Downloads/ulthese/build/root.out)
+(/home/phil/Documents/masters-thesis/build/root.out)
+(/home/phil/Documents/masters-thesis/build/root.out)
 \@outlinefile=\write4
 \openout4 = `root.out'.
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 72.
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 72.
 (/home/phil/.miktex/texmfs/install/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 72.
-<ul_p.pdf, id=43, 313.17pt x 129.48375pt>
-File: ul_p.pdf Graphic file (type pdf)
-<use ul_p.pdf>
-Package pdftex.def Info: ul_p.pdf  used on input line 72.
-(pdftex.def)             Requested size: 103.22217pt x 42.67912pt.
+File: ul_p.eps Graphic file (type eps)
+ <ul_p.eps>
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 72.
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 72.
@@ -1204,13 +1187,13 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 
 
 
-{/home/phil/.miktex/texmfs/data/pdftex/config/pdftex.map} <./ul_p.pdf>] [2
+] [2
 
 ]
 \openout2 = `resume.aux'.
 
- (resume.tex)
-[3
+
+(resume.tex) [3
 
 
 
@@ -1221,45 +1204,46 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 
 
 
-] (/home/phil/Downloads/ulthese/build/root.toc
+]
+(/home/phil/Documents/masters-thesis/build/root.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-) [5
+ [5
 
+
+]) [6]
+(/home/phil/Documents/masters-thesis/build/root.lot) [7
 
 ]
-(/home/phil/Downloads/ulthese/build/root.lot) [6
-
-]
-(/home/phil/Downloads/ulthese/build/root.lof) [7
+(/home/phil/Documents/masters-thesis/build/root.lof) [8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 87.
- [8
+ [9
 
 
-] [9
+] [10
 
 
 ]
 \openout2 = `remerciements.aux'.
 
- (remerciements.tex)
-[10
+
+(remerciements.tex) [11
 
 
 
 ]
 \openout2 = `avantpropos.aux'.
 
- (avantpropos.tex) [11
+ (avantpropos.tex) [12
 
 
 
@@ -1272,31 +1256,57 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ]
-\openout2 = `chapitre1.aux'.
+\openout2 = `chapitre_Architecture_du_robot_3DDL.aux'.
 
- (chapitre1.tex) [2
+
+(chapitre_Architecture_du_robot_3DDL.tex) [2
 
 
 
 ]
-\openout2 = `chapitre2.aux'.
+\openout2 = `chapitre_Env_developpement_3DDL.aux'.
 
 
-(chapitre2.tex) [3
+(chapitre_Env_developpement_3DDL.tex) [3
+
+
+
+]
+\openout2 = `chapitre_Architecture_du_robot_6DDL.aux'.
+
+
+(chapitre_Architecture_du_robot_6DDL.tex) [4
+
+
+
+]
+\openout2 = `chapitre_Env_developpement_6DDL.aux'.
+
+
+(chapitre_Env_developpement_6DDL.tex) [5
+
+
+
+]
+\openout2 = `chapitre_Algo_evit_collisions_3DDL_6DDL.aux'.
+
+
+(chapitre_Algo_evit_collisions_3DDL_6DDL.tex) [6
 
 
 
 ]
 \openout2 = `conclusion.aux'.
 
- (conclusion.tex) [4
+ (conclusion.tex) [7
 
 
 
 ]
 \openout2 = `annexe.aux'.
 
- (annexe.tex) [5
+
+(annexe.tex) [8
 
 
 
@@ -1311,52 +1321,39 @@ No file root.bbl.
 \tf@lof=\write7
 \openout7 = `root.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
-(/home/phil/Downloads/ulthese/build/root.aux
-(/home/phil/Downloads/ulthese/build/resume.aux)
-(/home/phil/Downloads/ulthese/build/abstract.aux)
-(/home/phil/Downloads/ulthese/build/remerciements.aux)
-(/home/phil/Downloads/ulthese/build/avantpropos.aux)
-(/home/phil/Downloads/ulthese/build/introduction.aux)
-(/home/phil/Downloads/ulthese/build/chapitre1.aux)
-(/home/phil/Downloads/ulthese/build/chapitre2.aux)
-(/home/phil/Downloads/ulthese/build/conclusion.aux)
-(/home/phil/Downloads/ulthese/build/annexe.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+(/home/phil/Documents/masters-thesis/build/root.aux
+(/home/phil/Documents/masters-thesis/build/resume.aux)
+(/home/phil/Documents/masters-thesis/build/abstract.aux)
+(/home/phil/Documents/masters-thesis/build/remerciements.aux)
+(/home/phil/Documents/masters-thesis/build/avantpropos.aux)
+(/home/phil/Documents/masters-thesis/build/introduction.aux)
+(/home/phil/Documents/masters-thesis/build/chapitre_Architecture_du_robot_3DDL.
+aux)
+(/home/phil/Documents/masters-thesis/build/chapitre_Env_developpement_3DDL.aux)
 
+(/home/phil/Documents/masters-thesis/build/chapitre_Architecture_du_robot_6DDL.
+aux)
+(/home/phil/Documents/masters-thesis/build/chapitre_Env_developpement_6DDL.aux)
 
-Package rerunfilecheck Warning: File `root.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `root.out':
-(rerunfilecheck)             Before: 83FEBE5BE900ABB03D8019DF98B07771;504
-(rerunfilecheck)             After:  49B13DC9F34E4056F78A41BF68F7D5E8;610.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+(/home/phil/Documents/masters-thesis/build/chapitre_Algo_evit_collisions_3DDL_6
+DDL.aux) (/home/phil/Documents/masters-thesis/build/conclusion.aux)
+(/home/phil/Documents/masters-thesis/build/annexe.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package rerunfilecheck Info: File `root.out' has not changed.
+(rerunfilecheck)             Checksum: 9F5CCD573293A62359355C14E2CFB5FC;2356.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  ) 
 Here is how much of TeX's memory you used:
- 11996 strings out of 493306
- 170959 string characters out of 3136390
- 313226 words of memory out of 3000000
- 15303 multiletter control sequences out of 15000+200000
- 24523 words of font info for 43 fonts, out of 3000000 for 9000
+ 11596 strings out of 493307
+ 167044 string characters out of 3136417
+ 316506 words of memory out of 3000000
+ 14942 multiletter control sequences out of 15000+200000
+ 22718 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,37p,260b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/phil/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx2074.
-pk> </home/phil/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1000
-.pk> </home/phil/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecti100
-0.pk> </home/phil/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx10
-95.pk> </home/phil/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1
-095.pk> </home/phil/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx
-2488.pk>{/home/phil/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/p
-hil/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></home/phil/.mik
-tex/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on /home/phil/Downloads/ulthese/build/root.pdf (16 pages, 121983
- bytes).
-PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41i,12n,37p,260b,651s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on /home/phil/Documents/masters-thesis/build/root.dvi (20 pages,
+ 41596 bytes).
