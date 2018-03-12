@@ -6,8 +6,8 @@
 \BOOKMARK [0][-]{section*.9}{Remerciements}{}% 6
 \BOOKMARK [0][-]{section*.11}{Avant-propos}{}% 7
 \BOOKMARK [0][-]{section*.13}{Introduction}{}% 8
-\BOOKMARK [0][-]{chapter.1}{Architecture du robot 3DDL}{}% 9
-\BOOKMARK [1][-]{section.1.1}{Description des charact\351ristiques physiques}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.1}{Description du robot 3 degr\350s de libert\351}{}% 9
+\BOOKMARK [1][-]{section.1.1}{Description des charact\351ristiques physiques du robot}{chapter.1}% 10
 \BOOKMARK [1][-]{section.1.2}{Cin\351matique directe}{chapter.1}% 11
 \BOOKMARK [1][-]{section.1.3}{Cin\351matique inverse}{chapter.1}% 12
 \BOOKMARK [1][-]{section.1.4}{Matrice Jacobienne}{chapter.1}% 13

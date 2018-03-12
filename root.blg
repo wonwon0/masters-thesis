@@ -1,0 +1,26 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: root.aux
+I couldn't open style file .bst
+---line 24 of file root.aux
+ : \bibstyle{
+ :           }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: resume.aux
+A level-1 auxiliary file: remerciements.aux
+A level-1 auxiliary file: avantpropos.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: chapitre_Architecture_du_robot_3DDL.aux
+A level-1 auxiliary file: chapitre_Env_developpement_3DDL.aux
+A level-1 auxiliary file: chapitre_Architecture_du_robot_6DDL.aux
+A level-1 auxiliary file: chapitre_Env_developpement_6DDL.aux
+A level-1 auxiliary file: chapitre_Algo_evit_collisions_3DDL_6DDL.aux
+A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: annexe.aux
+I couldn't open database file .bib
+---line 41 of file root.aux
+ : \bibdata{
+ :          }
+I'm skipping whatever remains of this command
+I found no \citation commands---while reading file root.aux
+I found no database files---while reading file root.aux
+I found no style file---while reading file root.aux
+(There were 5 error messages)

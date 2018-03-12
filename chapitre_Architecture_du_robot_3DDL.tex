@@ -1,6 +1,37 @@
-\chapter{Architecture du robot 3DDL}     % numéroté
+\chapter{Description du robot 3 degrès de liberté}     % numéroté
 
-\section{Description des charactéristiques physiques}
+Afin de réaliser l'implémentation de l'algoritme d'évitement de collisions sur un robot 3 degrès de liberté, une base robotique à du être sélectionnée.
+Le robot utilisé est un robot Jaco, de l'entreprise Kinova, modifié pour les besoins du projet.
+Le présent chapitre traite alors des différentes charactéristiques physiques du robot modifié, des modèles de cinématique directe et inverse ainsi que du calcul de la matrice Jacobienne du système.
+
+\section{Description des charactéristiques physiques du robot}
+Le robot Jaco, de Kinova, est un robot 6 degrès de liberté utilisé principalement dans le domaine de la santé où il est utilisé, entre autre, pour augmenter l'autonomie de patients ayant perdu le plein usage de leur bras.
+Le robot, dans sa configuration normale, pèse 5.2 Kg, peut soulever une charge maximale de 1.6 Kg de manière continue et posède une porté de 90 cm.
+L'achitecture du robot Jaco comprend 6 membrures creuses en fibre de carbone ainsi qu'un effecteur comprenant 3 doights ayant 2 articulations.
+
+La figure \ref{fig:jaco_6dof} présente l'architecture du robot dans ça configuration originale.
+\begin{figure}
+ \begin{center}
+  \begin{tabular}{c}
+    \includegraphics[trim=0cm 0cm 0cm 0cm, scale=0.17]{"figures/jaco_6dof"}
+  \end{tabular}
+ \end{center}
+\caption{Représentation de l'architecture du robot Jaco 6DOF}
+ \label{fig:jaco_6dof}
+\end{figure}
+
+Deux modèles différents d'actuateurs sont présents dans le robot, soit le modèle K-75+ pour les 3 première articulations et le modèle K-58 pour les 3 autres articulations.
+Ces actuateur sont connecté en série et sont modulables. Ceci permet la reconfiguration du système 6-DDL en un système 3-DDL
+
+
+
+
+La petite taille de ce système en fait le candidat idéal pour l'utilisation dans le cadre du développement d'un algorithme d'évitement de collision.
+
+
+
+
+
 \section{Cinématique directe}
 \section{Cinématique inverse}
 \section{Matrice Jacobienne}
